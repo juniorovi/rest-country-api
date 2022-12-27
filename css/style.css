@@ -1,0 +1,19 @@
+.country{
+    background-color: skyblue;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 20px; 
+    margin: 20px same kaj kore
+    */
+}
+.country img{
+    width: 300px;
+    height: 150px;
+}

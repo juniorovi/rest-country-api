@@ -13,9 +13,9 @@ const displayCountries =  countries => {
 const getCountryHTML = country => {
     // console.log(country);
     return `
-    <div>
+    <div class="country">
         <h2>${country.name.common}</h2>
-        <img src="${country.flags.png}"
+        <img src="${country.flags.png}">
     </div>
     `
 }
